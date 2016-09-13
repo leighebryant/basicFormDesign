@@ -1,4 +1,93 @@
+<!Doctype HTML>
 <html>
-<head></head>
-<body></body>
+<head>
+  <link rel="stylesheet" href="basicform.css">
+  <title>Force User Sign Up Form</title>
+</head>
+<body>
+<header>
+<h1>Force User Sign Up Form</h1>
+</header>
+  <main><center>
+    <form action="http://requestb.in/1eu8wbg1" method="post" autocomplete="off">
+    <fieldset>
+      <legend>Basic Info</legend>
+      <label for="fullname">Full Name</label><br>
+      <input id="yourName" type="text" placeholder="Luke Skywalker" size="62px" required>
+      <br><br>
+      <label for="profilePic">Profile Pic</label><br>
+      <input id="profilePic" type="file" placeholder="Choose File" optional>
+      <br><br>
+      <label for="email">Email</label><br>
+      <input id="email" type="text" placeholder="luke@sky.com" size="62px" required>
+      <br><br>
+      <label for="side">Side:</label><br>
+      <input name="side" id="lightSide" type="radio" value="Light">
+      <label for="lightSide"><span>Light</label></span>
+      <input name="side" id="darkSide" type="radio" value="Dark">
+      <label for ="darkSide"><span>Dark</label></span>
+      <br><br>
+      <label for="originStory">Origin Story</label><br>
+      <textarea id="originStory" rows="7" cols="60" required>
+      </textarea><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Abilities</legend>
+      <label for="lightsaberColor">Lightsaber Color</label><br>
+      <select id="lightsaberColor">
+      <option value="selectOne">Select One</option>
+      <option value="blue">Blue</option>
+      <option value="red">Red</option>
+      <option value="green">Green</option>
+      <option value="purple">Purple</option></select>
+      <br><br>
+      <label for="Objects">How many objects can you levitate at once?</label><br>
+      <input id="Objects" type="number" size="10px" min="0" optional>
+      <br><br>
+      <label for="favoriteAbility">Favorite Ability</label><br>
+      <input id="favoriteAbility" type="text" placeholder="precognition" size="62px" optional>
+      <br><br>
+      <label for="pilotExp">Pilot Experience</label><br>
+      <input id="Speeder" type="checkbox" value="Speeder">
+      <label for="Speeder"><span>Speeder</label></span>
+      <input id="Transport" type="checkbox" value="Transport">
+      <label for="Transport"><span>Transport</label></span>
+      <input id="xwing" type="checkbox" value="xwing">
+      <label for="xwing"><span>X-Wing</label></span>
+      <input id="tieFighter" type="checkbox" value="tieFighter">
+      <label for="tieFighter"><span>TIE Fighter</label></span>
+      <input id="starship" type="checkbox" value="starship">
+      <label for="starship"><span>Starship</label></span>
+      <input id="Bantha" type="checkbox" value="Bantha">
+      <label for="Bantha"><span>Bantha</label></span>
+    </select>
+
+
+    </fieldset>
+
+    <fieldset>
+      <legend>Application Info</legend>
+      <label for="desiredMentor">Desired Mentor</label><br>
+      <input id="desiredMentor" type="text" placeholder="Yoda" size="62px" optional>
+      <br><br>
+      <label for="appDate">Application Date</label><br>
+      <input id="appDate" type="date" placeholder="mm/dd/yyy" required>
+      <br><br>
+      <label for="appPassword">Application Password</label><br>
+      <input id="appPassword" type="password" required>
+      <br><br>
+      <label for="howDoYou">How do you get to the dark side?</label><br>
+      <textarea id="howDoYou" rows="7" cols="60" optional>
+      </textarea>
+      <br><br>
+      <button type="reset" value="Reset">Start Over</button>
+      <button type="submit" value="Submit">Apply</button>
+    </fieldset>
+</body>
+</center>
+<footer>
+  <br>
+  (c) 2016 The Republic
+</footer>
 </html>
