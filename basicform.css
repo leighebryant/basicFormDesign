@@ -19,6 +19,6 @@ input:focus{
 input[type=number]{
     width: 50px;
 }
-input:invalid {
+input:focus:required:invalid{
   background-color: yellow;
 }
